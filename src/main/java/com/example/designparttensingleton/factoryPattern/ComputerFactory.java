@@ -1,5 +1,7 @@
 package com.example.designparttensingleton.factoryPattern;
 
+import com.example.designparttensingleton.factoryPartternCar.FuelCar;
+
 public class ComputerFactory {
     public static Computer getComputer(String type, String ram, String
             hdd, String cpu){

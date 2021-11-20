@@ -59,15 +59,15 @@ public class Student {
 
     public Student(Student.StudentBuilder builder) {
         this.id = builder.id;
-        this.name = name;
-        this.classname = classname;
-        this.age = age;
-        this.gender = gender;
-        this.adress = adress;
-        this.fatherName = fatherName;
-        this.motherName = motherName;
-        this.nationality = nationality;
-        this.religion = religion;
+        this.name =  builder.name;
+        this.classname =  builder.classname;
+        this.age =  builder.age;
+        this.gender =  builder.gender;
+        this.adress =  builder.adress;
+        this.fatherName =  builder.fatherName;
+        this.motherName =  builder.motherName;
+        this.nationality =  builder.nationality;
+        this.religion =  builder.religion;
     }
 
 

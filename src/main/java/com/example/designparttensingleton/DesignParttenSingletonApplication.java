@@ -14,38 +14,6 @@ public class DesignParttenSingletonApplication {
 
     public static void main(String[] args) {
 
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                LazyInitializedSingleton singleton1= LazyInitializedSingleton.getInstance();
-//                System.out.println(singleton1.hashCode());
-//            }
-//        }).start();
-//
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                EagerInitializedSingleton singleton2= EagerInitializedSingleton.getInstance().getInstance();
-//                System.out.println(singleton2.hashCode());
-//            }
-//        }).start();
-//
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                StaticBlockSingleton singleton3= StaticBlockSingleton.getInstance();
-//                System.out.println(singleton3.hashCode());
-//            }
-//        }).start();
-//
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                ThreadSafeSingleton singleton4= ThreadSafeSingleton.getInstanceUsingDoubleLocking();
-//                System.out.println(singleton4.hashCode());
-//            }
-//        }).start();
-//        SpringApplication.run(DesignParttenSingletonApplication.class, args);
     }
 
 }
